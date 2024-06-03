@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container{
+    background-color: rgb(255, 250, 243);
+    display: flex;
+    justify-content: flex-start;
+    max-width: 500px;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
+button{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: large;
+    max-width: 100px;
+    max-height: 80px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.display{
+    background-color: aliceblue;
+    padding: 50px 250px;
+    margin-bottom: 10px;
+}
