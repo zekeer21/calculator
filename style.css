@@ -3,23 +3,33 @@
     padding: 0;
 }
 
+footer{
+    padding-top: 20px;
+}
+
 body{
     display: flex;
     justify-content: center;
     padding: 50px;
-    background-color: azure;
+    background-color: aliceblue;
+    font-family: 'Poppins';
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 108);
+    font-weight: 500;
 }
 
 .container{
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(190, 190, 255);
     display: flex;
     justify-content: flex-start;
     width: 360px;
     padding: 20px;
     align-items: center;
     flex-wrap: wrap;
-    border-radius: 10px;
+    border-radius: 50px;
     height: 500px;
+    border: solid rgb(0, 0, 96) 10px;
 }
 
 button{
@@ -32,8 +42,13 @@ button{
     text-align: center;
     align-items: center;
     border: none;
-    font-family: monospace, sans-serif;
+    font-family: 'Poppins', sans-serif;
     flex-direction: row;
+    border: solid rgb(0, 0, 96) 5px;
+    border-radius: 10px;
+    background-color: rgb(190, 190, 255);
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .display{
@@ -46,7 +61,10 @@ button{
     height: 80px;
     text-align: right;
     font-size: 50px;
-    font-family: monospace, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border: solid rgb(0, 0, 96) 5px;
+    border-radius: 10px;
+    background-color: rgb(222, 220, 255);
 }
 
 #zero{
@@ -58,4 +76,35 @@ button:hover{
 }
 button:active{
     background-color: rgb(212, 255, 255);
+}
+
+.equals{
+    background-color: orange;
+}
+.equals:hover{
+    background-color: rgb(255, 191, 73)
+}
+.equals:active{
+    background-color: rgb(255, 213, 135)
+}
+
+.operator{
+    background-color: blue;
+    color:white;
+}
+.operator:hover{
+    background-color: rgb(70, 70, 255);
+}
+.operator:active{
+    background-color: rgb(130, 130, 255);
+}
+.function{
+    background-color: rgb(0, 0, 126);
+    color: aliceblue;
+}
+.function:hover{
+    background-color: rgb(0, 0, 190);
+}
+.function:active{
+    background-color: rgb(0, 0, 255);
 }
