@@ -14,8 +14,8 @@ let percent = document.querySelector("#percent");
 number.forEach((numbers) => numbers.addEventListener("click", ()=>{
     handleNumber(numbers.textContent);
     display.textContent = currentValue;
-    if(currentValue>8){
-        display.textContent = currentValue.substring(0,8);
+    if(currentValue>10){
+        display.textContent = currentValue.substring(0,10);
     }
 }))
 
@@ -42,7 +42,7 @@ equals.addEventListener("click", () =>{
         if(currentValue.length <= 10){
             display.textContent = currentValue;
         }else{
-            display.textContent = currentValue.slice(0,8)+'..';
+            display.textContent = currentValue.slice(0,10)+'..';
         }
     }
 })
